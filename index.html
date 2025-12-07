@@ -9,8 +9,21 @@
         <div class="main">
             <h1 style="font-weight: 900; color:red;">COLOR & FONT PICKER</h1>
 
-            <div>
-                <h2 contenteditable="true">Type your quote</h2>
+            <div id="container">
+                <h2 contenteditable="true" id="head">Type your quote</h2>
+                <div>
+                    <h3>Choose your text Color</h3>
+                    <button onclick="changeTextColor()" style="background-color: red;"></button>
+                    <button onclick="changeTextColorY()" style="background-color: yellow;"></button>
+                    <button onclick="changeTextColorG()" style="background-color: green;"></button>
+                </div>
+
+                <div>
+                    <h3>Choose your background-color</h3>
+                    <button onclick="changeBackgroundColor()" style="background-color: red;"></button>
+                    <button onclick="changeBackgroundColorY()" style="background-color: yellow;"></button>
+                    <button onclick="changeBackgroundColorG()" style="background-color: green;"></button>
+                </div>
             </div>
 
         </div>

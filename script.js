@@ -1,29 +1,10 @@
-function changeTextColor(){
+function changeTextColor(color){
     let h2=document.getElementById('head');
-    h2.style.color="red";
+    h2.style.color=color;
 }
 
-function changeTextColorY(){
+function changeBackgroundColor(color){
     let h2=document.getElementById('head');
-    h2.style.color="yellow";
+    h2.style.backgroundColor=color;
 }
 
-function changeTextColorG(){
-    let h2=document.getElementById('head');
-    h2.style.color="green";
-}
-
-function changeBackgroundColor(){
-    let h2=document.getElementById('head');
-    h2.style.backgroundColor="red";
-}
-
-function changeBackgroundColorY(){
-    let h2=document.getElementById('head');
-    h2.style.backgroundColor="yellow";
-}
-
-function changeBackgroundColorG(){
-    let h2=document.getElementById('head');
-    h2.style.backgroundColor="green";
-}

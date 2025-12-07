@@ -11,7 +11,8 @@
 
             <div id="container">
                 <h2 contenteditable="true" id="head">Type your quote</h2>
-                <div>
+                <div class="colorpalette">
+                    <div>
                     <h3>Choose your text Color</h3>
                     <button onclick="changeTextColor('red')" style="background-color: red;"></button>
                     <button onclick="changeTextColor('#d0ff00')" style="background-color: #d0ff00;"></button>
@@ -19,6 +20,7 @@
                     <button onclick="changeTextColor('#3700ff')" style="background-color: #3700ff;"></button>
                     <button onclick="changeTextColor('#00ff4c')" style="background-color: #00ff4c;"></button>
                     <button onclick="changeTextColor('#ff00ea')" style="background-color: #ff00ea;"></button>
+                    <button onclick="changeTextColor('color')"><input type="color"></button>
                 </div>
 
                 <div>
@@ -30,6 +32,17 @@
                     <button onclick="changeBackgroundColor('#00ccff')" style="background-color: #00ccff;"></button>
                     <button onclick="changeBackgroundColor('#ff00ff')" style="background-color: #ff00ff;"></button>
                 </div>
+                <div>
+                    <h3>choose your font</h3><br>
+                    <span style="font-family: verdana;" onclick="changeFont('verdana')">Hello</span>
+                    <span style="font-family: Courier New;" onclick="changeFont('Courier New')">Hello</span>
+                    <span style="font-family: Helvetica;" onclick="changeFont('Helvetica')">Hello</span>
+                    <span style="font-family: Lucida Sans;" onclick="changeFont('Lucida Sans')">Hello</span>
+                    <span style="font-family: Times New Roman;" onclick="changeFont('Times New Roman')">Hello</span>
+                    <span style="font-family: Cambria;" onclick="changeFont('Cambria')">Hello</span>
+                </div>
+                </div>
+                
             </div>
 
         </div>

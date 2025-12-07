@@ -33,3 +33,19 @@ button{
     outline: none;
     cursor: pointer;
 }
+input{
+    width:45px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+span{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+}
+.colorpalette{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
